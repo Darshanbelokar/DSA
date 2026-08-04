@@ -1,3 +1,5 @@
+package prefixSum;
+
 public class pivot_index_brute_force {
   public static void main(String[] args) {
     int[] arr1 = {1,7,3,6,5,6};

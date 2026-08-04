@@ -1,3 +1,5 @@
+package Searching.Binary;
+
 public class search_2d_array {
       public static void main(String[] args) {
         int[][] matrix1 = {

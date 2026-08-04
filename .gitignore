@@ -1,0 +1,11 @@
+# IntelliJ
+.idea/
+
+# Compiled Java files
+*.class
+
+# Build folders
+out/
+
+# Temporary files
+tempCodeRunnerFile.java
