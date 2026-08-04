@@ -28,10 +28,11 @@ public class preorderTraversal {
   }
 }
 
+
 class TreeNode{
   int val;
-  TreeNode left;
-  TreeNode right;
+  TreeNode Left;
+  TreeNode Right;
 
   TreeNode(int val){
     this.val = val;
