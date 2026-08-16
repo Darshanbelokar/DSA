@@ -17,7 +17,7 @@ public class pivot_index_brute_force {
       for(int k=i+1;k<nums.length;k++){
         rightSum += nums[k];
       }
-
+      
       if(leftSum == rightSum){
         return i;
       }
