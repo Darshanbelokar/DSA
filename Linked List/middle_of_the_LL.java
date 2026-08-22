@@ -23,6 +23,7 @@ public class middle_of_the_LL {
         ListNode middle = obj.middleoftheLL(head);
 
         printList(middle);
+        System.out.println(middle.val);
     }
 
     public static void printList(ListNode head) {

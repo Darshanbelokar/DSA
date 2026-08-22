@@ -29,8 +29,6 @@ public class Array_to_LL {
       current.next=new Node(arr[i]);
       current=current.next;
     }
-
-
     return head;
 
   }

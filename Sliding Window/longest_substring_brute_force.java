@@ -8,17 +8,19 @@ public class longest_substring_brute_force {
     }
 
 public static int longest_substring(String str) {
-    int res = 0;
-    for(int i = 0; i < str.length(); i++) {
-      Set<Character> charSet = new HashSet<>();
-        for(int j = i; j < str.length(); j++) { 
-          if(charSet.contains(str.charAt(j))) {
-            break;
-          } 
-          charSet.add(str.charAt(j));
+   int result = 0;
+
+   for(int i = 0;i<str.length();i++){
+    Set<Character> set = new HashSet<>();
+      for(int j = i;j<str.length();j++){
+        if(set.contains(str.charAt(j))){
+          break;
         }
-        res = Math.max(res, charSet.size());
-    }
-    return res;
+        set.add(str.charAt(j));
+      }
+
+      result = Math.max(result,set.size());
+   }
+   return result;
 }
 }

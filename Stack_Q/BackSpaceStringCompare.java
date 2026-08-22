@@ -1,17 +1,16 @@
 import java.util.Stack;
 public class BackSpaceStringCompare {
   public static void main(String[] args) {
-   String s = "ab#c";
+    String s = "ab#c";
     String t = "ad#c";
-    
+      
     System.out.println(backspaceCompare(s,t));
   }
   public static boolean backspaceCompare(String s,String t){
 
     Stack<Character> s1  = new Stack<>();
     Stack<Character> s2  = new Stack<>();
-
-
+    
     for(Character ch : s.toCharArray()){
       if(ch != '#'){
         s1.push(ch);
