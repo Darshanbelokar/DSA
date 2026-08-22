@@ -1,6 +1,6 @@
 public  class checkDivisibilitybuSUmProduct{
   public static void main(String[] args) {
-    int m = 232;
+    int m = 99;
     System.out.println(checkDivisibility(m));
   }
 
