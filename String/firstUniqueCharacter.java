@@ -3,7 +3,8 @@ import java.util.Set;
 
 public class firstUniqueCharacter {
   public static void main(String[] args) {
-    
+    String s = "hello";
+    System.out.println(firstUniqueCharacter(s));
   }
 
   public static int firstUniqueCharacter(String s){
